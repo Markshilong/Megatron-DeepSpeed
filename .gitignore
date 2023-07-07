@@ -13,3 +13,9 @@ dist/
 
 # AML workspace config file
 *config.json
+
+# lsl: checkpoint files
+*.pt
+examples/checkpoints
+examples/data
+examples/nsys-repo
