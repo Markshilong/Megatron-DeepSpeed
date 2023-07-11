@@ -23,8 +23,47 @@ DISTRIBUTED_ARGS="--nproc_per_node $GPUS_PER_NODE \
        --master_addr $MASTER_ADDR \
        --master_port $MASTER_PORT"
 
+# remove last checkpoints
+rm -rf $CHECKPOINT_PATH
+
+ZERO_STAGE=1
+MICRO_BATCH_SIZE=4
+GLOBAL_BATCH_SIZE=16
+
+config_json="./ds_config.json"
+
+# Deepspeed figures out GAS dynamically from dynamic GBS via set_train_batch_size()
+cat <<EOT > $config_json
+{
+  "train_micro_batch_size_per_gpu": $MICRO_BATCH_SIZE,
+  "train_batch_size": $GLOBAL_BATCH_SIZE,
+  "gradient_clipping": 1.0,
+  "zero_optimization": {
+    "stage": $ZERO_STAGE
+  },
+  "fp16": {
+    "enabled": true,
+    "loss_scale": 0,
+    "loss_scale_window": 500,
+    "hysteresis": 2,
+    "min_loss_scale": 1,
+    "initial_scale_power": 12
+  },
+  "steps_per_print": 2000,
+  "wall_clock_breakdown": false
+}
+EOT
+
+DEEPSPEED_ARGS=" \
+    --deepspeed \
+    --deepspeed_config ${config_json} \
+    --zero-stage ${ZERO_STAGE} \
+    --deepspeed-activation-checkpointing \
+    "
+
 python -m torch.distributed.launch $DISTRIBUTED_ARGS \
        /home/shilonglei/OOC/Megatron-DeepSpeed/pretrain_gpt.py \
+       $DEEPSPEED_ARGS \
        --tensor-model-parallel-size 2 \
        --pipeline-model-parallel-size 2 \
        --num-layers 24 \
@@ -34,7 +73,7 @@ python -m torch.distributed.launch $DISTRIBUTED_ARGS \
        --global-batch-size 16 \
        --seq-length 1024 \
        --max-position-embeddings 1024 \
-       --train-iters 100 \
+       --train-iters 10 \
        --lr-decay-iters 320000 \
        --save $CHECKPOINT_PATH \
        --load $CHECKPOINT_PATH \
@@ -51,8 +90,8 @@ python -m torch.distributed.launch $DISTRIBUTED_ARGS \
        --clip-grad 1.0 \
        --lr-warmup-fraction .01 \
        --checkpoint-activations \
-       --log-interval 10 \
+       --log-interval 5 \
        --save-interval 10000 \
        --eval-interval 1000 \
-       --eval-iters 10 \
+       --eval-iters 0 \
        --fp16
