@@ -1,0 +1,1068 @@
+--------------------------------------------------
+DeepSpeed C++/CUDA extension op report
+--------------------------------------------------
+NOTE: Ops not installed will be just-in-time (JIT) compiled at
+      runtime if needed. Op compatibility means that your system
+      meet the required dependencies to JIT install the op.
+--------------------------------------------------
+JIT compiled ops requires ninja
+--------------------------------------------------
+DeepSpeed C++/CUDA extension op report
+--------------------------------------------------
+NOTE: Ops not installed will be just-in-time (JIT) compiled at
+      runtime if needed. Op compatibility means that your system
+      meet the required dependencies to JIT install the op.
+--------------------------------------------------
+JIT compiled ops requires ninja
+ninja .................. [92m[OKAY][0m
+--------------------------------------------------
+op name ................ installed .. compatible
+--------------------------------------------------
+ninja .................. [92m[OKAY][0m
+--------------------------------------------------
+op name ................ installed .. compatible
+--------------------------------------------------
+--------------------------------------------------
+DeepSpeed C++/CUDA extension op report
+--------------------------------------------------
+NOTE: Ops not installed will be just-in-time (JIT) compiled at
+      runtime if needed. Op compatibility means that your system
+      meet the required dependencies to JIT install the op.
+--------------------------------------------------
+JIT compiled ops requires ninja
+ninja .................. [92m[OKAY][0m
+--------------------------------------------------
+op name ................ installed .. compatible
+--------------------------------------------------
+--------------------------------------------------
+DeepSpeed C++/CUDA extension op report
+--------------------------------------------------
+NOTE: Ops not installed will be just-in-time (JIT) compiled at
+      runtime if needed. Op compatibility means that your system
+      meet the required dependencies to JIT install the op.
+--------------------------------------------------
+JIT compiled ops requires ninja
+ninja .................. [92m[OKAY][0m
+--------------------------------------------------
+op name ................ installed .. compatible
+--------------------------------------------------
+async_io ............... [93m[NO][0m ....... async_io[92m[OKAY][0m 
+............... [93m[NO][0m ....... cpu_adagrad[92m[OKAY][0m ............
+ [93m[NO][0m ....... [92m[OKAY][0mcpu_adagrad
+ ............cpu_adam  [93m[NO][0m...............  .......[93m[NO][0m  [92m[OKAY][0m.......
+ [92m[OKAY][0m
+cpu_adam fused_adam...............  .............[93m[NO][0m  [93m[NO][0m.......  .......[92m[OKAY][0m 
+[92m[OKAY][0m
+fused_adam fused_lamb.............  .............[93m[NO][0m  [93m[NO][0m.......  .......[92m[OKAY][0m 
+[92m[OKAY][0m
+fused_lamb quantizer.............  ..............[93m[NO][0m  [93m[NO][0m.......  .......[92m[OKAY][0m 
+[92m[OKAY][0m
+quantizerrandom_ltd  ...........................  [93m[NO][0m[93m[NO][0m  ..............  [92m[OKAY][0m[92m[OKAY][0m
+
+random_ltd ............. [93m[NO][0m ....... [92m[OKAY][0m
+[93m [WARNING] [0m please install triton==1.0.0 if you want to use sparse attention
+sparse_attn ............ [93m[NO][0m ....... [93m[NO][0m
+[93m [WARNING] [0m please install triton==1.0.0 if you want to use sparse attention
+sparse_attn ............ [93m[NO][0m ....... [93m[NO][0m
+async_io ............... [93m[NO][0m ....... [92m[OKAY][0m
+cpu_adagrad ............ [93m[NO][0m ....... [92m[OKAY][0m
+cpu_adam ............... [93m[NO][0m ....... [92m[OKAY][0m
+fused_adam ............. [93m[NO][0m ....... [92m[OKAY][0m
+fused_lamb ............. [93m[NO][0m ....... [92m[OKAY][0m
+quantizer .............. [93m[NO][0m ....... [92m[OKAY][0m
+random_ltd ............. [93m[NO][0m ....... [92m[OKAY][0m
+[93m [WARNING] [0m please install triton==1.0.0 if you want to use sparse attention
+sparse_attn ............ [93m[NO][0m ....... [93m[NO][0m
+async_io ............... [93m[NO][0m ....... [92m[OKAY][0m
+cpu_adagrad ............ [93m[NO][0m ....... [92m[OKAY][0m
+cpu_adam ............... [93m[NO][0m ....... [92m[OKAY][0m
+fused_adam ............. [93m[NO][0m ....... [92m[OKAY][0m
+fused_lamb ............. [93m[NO][0m ....... [92m[OKAY][0m
+quantizer .............. [93m[NO][0m ....... [92m[OKAY][0m
+random_ltd ............. [93m[NO][0m ....... [92m[OKAY][0m
+[93m [WARNING] [0m please install triton==1.0.0 if you want to use sparse attention
+sparse_attn ............ [93m[NO][0m ....... [93m[NO][0m
+spatial_inference ...... [93m[NO][0m ....... [92m[OKAY][0m
+transformer ............ [93m[NO][0m ....... [92m[OKAY][0m
+stochastic_transformer . [93m[NO][0m ....... [92m[OKAY][0m
+spatial_inference ...... [93m[NO][0m ....... [92m[OKAY][0m
+transformer ............ [93m[NO][0m ....... [92m[OKAY][0m
+stochastic_transformer . [93m[NO][0m ....... [92m[OKAY][0m
+spatial_inference ...... [93m[NO][0m ....... [92m[OKAY][0m
+transformer ............ [93m[NO][0m ....... [92m[OKAY][0m
+stochastic_transformer . [93m[NO][0m ....... [92m[OKAY][0m
+spatial_inference ...... [93m[NO][0m ....... [92m[OKAY][0m
+transformer ............ [93m[NO][0m ....... [92m[OKAY][0m
+stochastic_transformer . [93m[NO][0m ....... [92m[OKAY][0m
+transformer_inference .. [93m[NO][0m ....... [92m[OKAY][0m
+utils .................. [93m[NO][0m ....... [92m[OKAY][0m
+--------------------------------------------------
+transformer_inference .. [93m[NO][0m ....... [92m[OKAY][0m
+utils .................. [93m[NO][0m ....... [92m[OKAY][0m
+--------------------------------------------------
+transformer_inference .. [93m[NO][0m ....... [92m[OKAY][0m
+utils .................. [93m[NO][0m ....... [92m[OKAY][0m
+--------------------------------------------------
+transformer_inference .. [93m[NO][0m ....... [92m[OKAY][0m
+utils .................. [93m[NO][0m ....... [92m[OKAY][0m
+--------------------------------------------------
+DeepSpeed general environment info:
+torch install path ............... ['/home/shilonglei/anaconda3/envs/deepspeed_py3.7/lib/python3.7/site-packages/torch']
+torch version .................... 1.13.1
+deepspeed install path ........... ['/home/shilonglei/OOC/DeepSpeed/deepspeed']
+deepspeed info ................... 0.9.3+ef0245a, ef0245a, master
+torch cuda version ............... 11.7
+torch hip version ................ None
+nvcc version ..................... 11.7
+deepspeed wheel compiled w. ...... torch 1.13, cuda 11.7
+DeepSpeed general environment info:
+torch install path ............... ['/home/shilonglei/anaconda3/envs/deepspeed_py3.7/lib/python3.7/site-packages/torch']
+torch version .................... 1.13.1
+deepspeed install path ........... ['/home/shilonglei/OOC/DeepSpeed/deepspeed']
+deepspeed info ................... 0.9.3+ef0245a, ef0245a, master
+torch cuda version ............... 11.7
+torch hip version ................ None
+nvcc version ..................... 11.7
+deepspeed wheel compiled w. ...... torch 1.13, cuda 11.7
+DeepSpeed general environment info:
+torch install path ............... ['/home/shilonglei/anaconda3/envs/deepspeed_py3.7/lib/python3.7/site-packages/torch']
+torch version .................... 1.13.1
+deepspeed install path ........... ['/home/shilonglei/OOC/DeepSpeed/deepspeed']
+deepspeed info ................... 0.9.3+ef0245a, ef0245a, master
+torch cuda version ............... 11.7
+torch hip version ................ None
+nvcc version ..................... 11.7
+deepspeed wheel compiled w. ...... torch 1.13, cuda 11.7
+DeepSpeed general environment info:
+torch install path ............... ['/home/shilonglei/anaconda3/envs/deepspeed_py3.7/lib/python3.7/site-packages/torch']
+torch version .................... 1.13.1
+deepspeed install path ........... ['/home/shilonglei/OOC/DeepSpeed/deepspeed']
+deepspeed info ................... 0.9.3+ef0245a, ef0245a, master
+torch cuda version ............... 11.7
+torch hip version ................ None
+nvcc version ..................... 11.7
+deepspeed wheel compiled w. ...... torch 1.13, cuda 11.7
+**** Git info for Megatron: git_hash=6858d6b git_branch=main ****
+**** Git info for Megatron: git_hash=6858d6b git_branch=main ****
+using world size: 4, data-parallel-size: 1, tensor-model-parallel size: 2, pipeline-model-parallel size: 2 
+using torch.float16 for parameters ...
+------------------------ arguments ------------------------
+  accumulate_allreduce_grads_in_fp32 .............. False
+  adam_beta1 ...................................... 0.9
+  adam_beta2 ...................................... 0.999
+  adam_eps ........................................ 1e-08
+  adlr_autoresume ................................. False
+  adlr_autoresume_interval ........................ 1000
+  aml_data_download_path .......................... None
+  apply_query_key_layer_scaling ................... True
+  apply_residual_connection_post_layernorm ........ False
+  attention_dropout ............................... 0.1
+  attention_softmax_in_fp32 ....................... False
+  bert_binary_head ................................ True
+  bert_load ....................................... None
+  bf16 ............................................ False
+  bias_dropout_fusion ............................. True
+  bias_gelu_fusion ................................ True
+  biencoder_projection_dim ........................ 0
+  biencoder_shared_query_context_model ............ False
+  block_data_path ................................. None
+  checkpoint_activations .......................... True
+  checkpoint_in_cpu ............................... False
+  checkpoint_num_layers ........................... 1
+  clip_grad ....................................... 1.0
+  compression_training ............................ False
+  consumed_train_samples .......................... 0
+  consumed_train_tokens ........................... 0
+  consumed_valid_samples .......................... 0
+  contigious_checkpointing ........................ False
+  cpu_optimizer ................................... False
+  cpu_torch_adam .................................. False
+  create_moe_param_group .......................... False
+  curriculum_learning_legacy ...................... False
+  custom_token_counting ........................... False
+  data_efficiency_curriculum_learning ............. False
+  data_impl ....................................... mmap
+  data_parallel_size .............................. 1
+  data_path ....................................... ['data/meg-gpt2-oscar-en-10k_text_document']
+  dataloader_type ................................. single
+  DDP_impl ........................................ local
+  decoder_seq_length .............................. None
+  deepscale ....................................... False
+  deepscale_config ................................ None
+  deepspeed ....................................... True
+  deepspeed_activation_checkpointing .............. True
+  deepspeed_config ................................ ./ds_config.json
+  deepspeed_mpi ................................... False
+  distribute_checkpointed_activations ............. False
+  distributed_backend ............................. nccl
+  ds_inference .................................... False
+  ds_pipeline_enabled ............................. True
+  embedding_path .................................. None
+  enable_expert_tensor_parallelism ................ False
+  encoder_seq_length .............................. 1024
+  eod_mask_loss ................................... False
+  eval_interval ................................... 1000
+  eval_iters ...................................... 10
+  evidence_data_path .............................. None
+  exit_duration_in_mins ........................... None
+  exit_interval ................................... None
+  expert_interval ................................. 2
+  ffn_hidden_size ................................. 4096
+  finetune ........................................ False
+  fp16 ............................................ True
+  fp16_lm_cross_entropy ........................... False
+  fp32_residual_connection ........................ False
+  global_batch_size ............................... 16
+  hidden_dropout .................................. 0.1
+  hidden_size ..................................... 1024
+  hidden_size_teacher ............................. None
+  hysteresis ...................................... 2
+  ict_head_size ................................... None
+  ict_load ........................................ None
+  img_dim ......................................... 224
+  indexer_batch_size .............................. 128
+  indexer_log_interval ............................ 1000
+  inference ....................................... False
+  init_method_std ................................. 0.02
+  init_method_xavier_uniform ...................... False
+  initial_loss_scale .............................. 4294967296
+  kd .............................................. False
+  kd_alpha_ce ..................................... 1
+  kd_beta_ce ...................................... 1
+  kd_temp ......................................... 1.0
+  kv_channels ..................................... 64
+  layernorm_epsilon ............................... 1e-05
+  lazy_mpu_init ................................... None
+  load ............................................ checkpoints/gpt2-pipeline
+  load_teacher .................................... None
+  local_rank ...................................... 0
+  log_batch_size_to_tensorboard ................... False
+  log_interval .................................... 5
+  log_learning_rate_to_tensorboard ................ True
+  log_loss_scale_to_tensorboard ................... True
+  log_num_zeros_in_grad ........................... False
+  log_optimizer_states_to_tensorboard ............. False
+  log_params_norm ................................. False
+  log_timers_to_tensorboard ....................... False
+  log_validation_ppl_to_tensorboard ............... False
+  loss_scale ...................................... None
+  loss_scale_window ............................... 1000
+  lr .............................................. 0.00015
+  lr_decay_iters .................................. 320000
+  lr_decay_samples ................................ None
+  lr_decay_style .................................. cosine
+  lr_decay_tokens ................................. None
+  lr_warmup_fraction .............................. 0.01
+  lr_warmup_iters ................................. 0
+  lr_warmup_samples ............................... 0
+  lr_warmup_tokens ................................ None
+  make_vocab_size_divisible_by .................... 128
+  mask_prob ....................................... 0.15
+  masked_softmax_fusion ........................... True
+  max_position_embeddings ......................... 1024
+  memory_centric_tiled_linear ..................... False
+  merge_file ...................................... data/gpt2-merges.txt
+  micro_batch_size ................................ 4
+  min_loss_scale .................................. 1.0
+  min_lr .......................................... 1e-05
+  mlp_type ........................................ standard
+  mmap_warmup ..................................... False
+  moe_eval_capacity_factor ........................ 1.0
+  moe_expert_parallel_size ........................ 1
+  moe_loss_coeff .................................. 0.1
+  moe_min_capacity ................................ 4
+  moe_token_dropping .............................. True
+  moe_train_capacity_factor ....................... 1.0
+  mos ............................................. False
+  no_load_lr_state ................................ False
+  no_load_optim ................................... None
+  no_load_rng ..................................... None
+  no_pipeline_parallel ............................ False
+  no_save_optim ................................... None
+  no_save_rng ..................................... None
+  num_attention_heads ............................. 16
+  num_attention_heads_teacher ..................... None
+  num_channels .................................... 3
+  num_classes ..................................... 1000
+  num_experts ..................................... [1]
+  num_experts_teacher ............................. [1]
+  num_layers ...................................... 24
+  num_layers_per_virtual_pipeline_stage ........... None
+  num_layers_teacher .............................. None
+  num_workers ..................................... 2
+  onnx_safe ....................................... None
+  openai_gelu ..................................... False
+  optimizer ....................................... adam
+  override_lr_scheduler ........................... False
+  params_dtype .................................... torch.float16
+  partition_activations ........................... False
+  patch_dim ....................................... 16
+  pipeline_model_parallel_size .................... 2
+  profile_backward ................................ False
+  query_in_block_prob ............................. 0.1
+  rampup_batch_size ............................... None
+  random_ltd ...................................... False
+  rank ............................................ 0
+  remote_device ................................... none
+  reset_attention_mask ............................ False
+  reset_iteration ................................. False
+  reset_position_ids .............................. False
+  retriever_report_topk_accuracies ................ []
+  retriever_score_scaling ......................... False
+  retriever_seq_length ............................ 256
+  return_data_index ............................... False
+  sample_rate ..................................... 1.0
+  save ............................................ checkpoints/gpt2-pipeline
+  save_interval ................................... 10000
+  scatter_gather_tensors_in_pipeline .............. True
+  scattered_embeddings ............................ False
+  seed ............................................ 1234
+  seq_length ...................................... 1024
+  sgd_momentum .................................... 0.9
+  short_seq_prob .................................. 0.1
+  split ........................................... 949,50,1
+  split_transformers .............................. False
+  synchronize_each_layer .......................... False
+  tensor_model_parallel_size ...................... 2
+  tensorboard_dir ................................. None
+  tensorboard_log_interval ........................ 1
+  tensorboard_queue_size .......................... 1000
+  tile_factor ..................................... 1
+  titles_data_path ................................ None
+  tokenizer_type .................................. GPT2BPETokenizer
+  topk ............................................ 1
+  train_data_exact_num_epochs ..................... None
+  train_doc_idx_path .............................. None
+  train_idx_path .................................. None
+  train_iters ..................................... 30
+  train_sample_idx_path ........................... None
+  train_samples ................................... None
+  train_shuffle_idx_path .......................... None
+  train_tokens .................................... None
+  use_checkpoint_lr_scheduler ..................... False
+  use_contiguous_buffers_in_ddp ................... False
+  use_cpu_initialization .......................... None
+  use_one_sent_docs ............................... False
+  use_pin_memory .................................. False
+  use_tutel ....................................... False
+  virtual_pipeline_model_parallel_size ............ None
+  vocab_extra_ids ................................. 0
+  vocab_file ...................................... data/gpt2-vocab.json
+  weight_decay .................................... 0.01
+  world_size ...................................... 4
+  zero_allgather_bucket_size ...................... 0.0
+  zero_contigious_gradients ....................... False
+  zero_reduce_bucket_size ......................... 0.0
+  zero_reduce_scatter ............................. False
+  zero_stage ...................................... 1
+-------------------- end of arguments ---------------------
+setting number of micro-batches to constant 4
+> building GPT2BPETokenizer tokenizer ...
+**** Git info for Megatron: git_hash=6858d6b git_branch=main ****
+**** Git info for Megatron: git_hash=6858d6b git_branch=main ****
+ > padded vocab (size: 50257) with 175 dummy tokens (new size: 50432)
+> initializing torch distributed ...
+[2023-07-22 18:38:01,378] [INFO] [comm.py:622:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+> initializing tensor model parallel with size 2
+> initializing pipeline model parallel with size 2
+> setting random seeds to 1234 ...
+[2023-07-22 18:38:01,483] [INFO] [checkpointing.py:231:model_parallel_cuda_manual_seed] > initializing model parallel cuda seeds on global rank 0, model parallel rank 0, and data parallel rank 0 with model parallel seed: 3952 and data parallel seed: 1234
+> compiling dataset index builder ...
+make: Entering directory '/home/shilonglei/OOC/Megatron-DeepSpeed/megatron/data'
+make: Nothing to be done for 'default'.
+make: Leaving directory '/home/shilonglei/OOC/Megatron-DeepSpeed/megatron/data'
+>>> done with dataset index builder. Compilation time: 0.030 seconds
+> compiling and loading fused kernels ...
+ninja: no work to do.
+ninja: no work to do.
+ninja: no work to do.
+>>> done with compiling and loading fused kernels. Compilation time: 2.819 seconds
+time to initialize megatron (seconds): -51.665
+[after megatron is initialized] datetime: 2023-07-22 18:38:04 
+building GPT model ...
+!!!!!!!! executing deepspeed.zero.Init __init__()!!!!!!
+!!!!!!!! executing Init.fatherClass - __enter__()!!!!!!
+!!!!!!!! executing deepspeed.zero.Init __init__()!!!!!!
+!!!!!!!! executing Init.fatherClass - __enter__()!!!!!!
+!!!!!!!! executing deepspeed.zero.Init __init__()!!!!!!
+!!!!!!!! executing Init.fatherClass - __enter__()!!!!!!
+[2023-07-22 18:38:04,410] [INFO] [utils.py:785:see_memory_usage] Before Building Model
+[2023-07-22 18:38:04,411] [INFO] [utils.py:789:see_memory_usage] MA 0.0 GB         Max_MA 0.0 GB         CA 0.0 GB         Max_CA 0 GB 
+[2023-07-22 18:38:04,411] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 9.99 GB, percent = 4.0%
+!!!!!!!! executing deepspeed.zero.Init __init__()!!!!!!
+!!!!!!!! executing Init.fatherClass - __enter__()!!!!!!
+SEED_LAYERS=False BASE_SEED=1234 SEED_FN=None
+Using topology: {ProcessCoord(pipe=0, data=0, model=0): 0, ProcessCoord(pipe=0, data=0, model=1): 1, ProcessCoord(pipe=1, data=0, model=0): 2, ProcessCoord(pipe=1, data=0, model=1): 3}
+[2023-07-22 18:38:04,486] [INFO] [module.py:358:_partition_layers] Partitioning pipeline stages with method type:transformer
+stage=0 layers=15
+     0: _to_float16
+     1: EmbeddingPipe
+     2: <lambda>
+     3: ParallelTransformerLayerPipe
+     4: ParallelTransformerLayerPipe
+     5: ParallelTransformerLayerPipe
+     6: ParallelTransformerLayerPipe
+     7: ParallelTransformerLayerPipe
+     8: ParallelTransformerLayerPipe
+     9: ParallelTransformerLayerPipe
+    10: ParallelTransformerLayerPipe
+    11: ParallelTransformerLayerPipe
+    12: ParallelTransformerLayerPipe
+    13: ParallelTransformerLayerPipe
+    14: ParallelTransformerLayerPipe
+stage=1 layers=16
+    15: ParallelTransformerLayerPipe
+    16: ParallelTransformerLayerPipe
+    17: ParallelTransformerLayerPipe
+    18: ParallelTransformerLayerPipe
+    19: ParallelTransformerLayerPipe
+    20: ParallelTransformerLayerPipe
+    21: ParallelTransformerLayerPipe
+    22: ParallelTransformerLayerPipe
+    23: ParallelTransformerLayerPipe
+    24: ParallelTransformerLayerPipe
+    25: ParallelTransformerLayerPipe
+    26: ParallelTransformerLayerPipe
+    27: <lambda>
+    28: MixedFusedLayerNorm
+    29: EmbeddingPipe
+    30: float16_to_fp32
+  loss: CrossEntropy
+!!!!!!!! executing Init.fatherClass - __exit__()!!!!!!
+!!!!!!!! executing Init.fatherClass - __exit__()!!!!!!
+ > number of parameters on (tensor, pipeline) model parallel rank (0, 1): 102486016
+!!!!!!!!!!!!!!!!Getting into has_optimizer: line 314 of engine.py
+@@@@@@@@@@@@@@@@@
+[2023-07-22 18:38:04,730] [INFO] [utils.py:785:see_memory_usage] After Building Model
+!!!!!!!! executing Init.fatherClass - __exit__()!!!!!!
+[2023-07-22 18:38:04,730] [INFO] [utils.py:789:see_memory_usage] MA 0.2 GB         Max_MA 0.2 GB         CA 0.22 GB         Max_CA 0 GB 
+[2023-07-22 18:38:04,731] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 10.21 GB, percent = 4.1%
+ > number of parameters on (tensor, pipeline) model parallel rank (1, 1): 102486016
+ > number of parameters on (tensor, pipeline) model parallel rank (0, 0): 102483968
+!!!!!!!! executing Init.fatherClass - __exit__()!!!!!!
+> learning rate decay style: cosine
+DeepSpeed is enabled.
+[2023-07-22 18:38:04,733] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed info: version=0.9.3+ef0245a, git-hash=ef0245a, git-branch=master
+ > number of parameters on (tensor, pipeline) model parallel rank (1, 0): 102483968
+[2023-07-22 18:38:04,783] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Flops Profiler Enabled: False
+!!!!!!!!!!!!!!!!Getting into has_optimizer: line 314 of engine.py
+!!!!!!!!!!!!!!!!Getting into has_optimizer: line 314 of engine.py
+[2023-07-22 18:38:04,784] [INFO] [logging.py:96:log_dist] [Rank 0] Removing param_group that has no 'params' in the client Optimizer
+[2023-07-22 18:38:04,784] [INFO] [logging.py:96:log_dist] [Rank 0] Using client Optimizer as basic optimizer
+!!!!!!!!!!!!!!!!Getting into has_optimizer: line 314 of engine.py
+[2023-07-22 18:38:04,786] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Basic Optimizer = FusedAdam
+@@@@@@@@@@@@@@@@@
+[2023-07-22 18:38:04,786] [INFO] [utils.py:54:is_zero_supported_optimizer] Checking ZeRO support for optimizer=FusedAdam type=<class 'apex.optimizers.fused_adam.FusedAdam'>
+@@@@@@@@@@@@@@@@@
+[2023-07-22 18:38:04,786] [INFO] [logging.py:96:log_dist] [Rank 0] Creating torch.float16 ZeRO stage 1 optimizer
+[2023-07-22 18:38:04,786] [INFO] [stage_1_and_2.py:133:__init__] Reduce bucket size 500000000
+[2023-07-22 18:38:04,786] [INFO] [stage_1_and_2.py:134:__init__] Allgather bucket size 500000000
+[2023-07-22 18:38:04,787] [INFO] [stage_1_and_2.py:135:__init__] CPU Offload: False
+[2023-07-22 18:38:04,787] [INFO] [stage_1_and_2.py:136:__init__] Round robin gradient partitioning: False
+@@@@@@@@@@@@@@@@@
+ninja: no work to do.
+Time to load utils op: 0.23460721969604492 seconds
+Time to load utils op: 0.20225238800048828 seconds
+Time to load utils op: 0.2022535800933838 seconds
+Time to load utils op: 0.202009916305542 seconds
+Rank: 2 partition count [1, 1] and sizes[(102367232, False), (118784, False)] 
+Rank: 0 partition count [1, 1] and sizes[(102367232, False), (116736, False)] 
+Rank: 3 partition count [1, 1] and sizes[(102367232, False), (118784, False)] 
+Rank: 1 partition count [1, 1] and sizes[(102367232, False), (116736, False)] 
+Time to load utils op: 0.0004162788391113281 seconds
+Time to load utils op: 0.0005269050598144531 seconds
+Time to load utils op: 0.0003809928894042969 seconds
+[2023-07-22 18:38:05,206] [INFO] [utils.py:785:see_memory_usage] Before initializing optimizer states
+[2023-07-22 18:38:05,206] [INFO] [utils.py:789:see_memory_usage] MA 0.57 GB         Max_MA 0.57 GB         CA 0.58 GB         Max_CA 1 GB 
+[2023-07-22 18:38:05,207] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 10.82 GB, percent = 4.3%
+[2023-07-22 18:38:05,273] [INFO] [utils.py:785:see_memory_usage] After initializing optimizer states
+[2023-07-22 18:38:05,274] [INFO] [utils.py:789:see_memory_usage] MA 1.34 GB         Max_MA 1.72 GB         CA 1.73 GB         Max_CA 2 GB 
+[2023-07-22 18:38:05,274] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 10.82 GB, percent = 4.3%
+[2023-07-22 18:38:05,274] [INFO] [stage_1_and_2.py:489:__init__] optimizer state initialized
+[2023-07-22 18:38:05,338] [INFO] [utils.py:785:see_memory_usage] After initializing ZeRO optimizer
+[2023-07-22 18:38:05,338] [INFO] [utils.py:789:see_memory_usage] MA 1.34 GB         Max_MA 1.34 GB         CA 1.73 GB         Max_CA 2 GB 
+[2023-07-22 18:38:05,339] [INFO] [utils.py:793:see_memory_usage] CPU Virtual Memory:  used = 10.82 GB, percent = 4.3%
+[2023-07-22 18:38:05,342] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed Final Optimizer = FusedAdam
+[2023-07-22 18:38:05,342] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed using client LR scheduler
+[2023-07-22 18:38:05,342] [INFO] [logging.py:96:log_dist] [Rank 0] DeepSpeed LR Scheduler = <megatron.learning_rates.AnnealingLR object at 0x7fe8557c1f10>
+[2023-07-22 18:38:05,342] [INFO] [logging.py:96:log_dist] [Rank 0] step=0, skipped=0, lr=[0.0, 0.0], mom=[(0.9, 0.999), (0.9, 0.999)]
+[2023-07-22 18:38:05,343] [INFO] [config.py:955:print] DeepSpeedEngine configuration:
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   activation_checkpointing_config  {
+    "partition_activations": false, 
+    "contiguous_memory_optimization": false, 
+    "cpu_checkpointing": false, 
+    "number_checkpoints": null, 
+    "synchronize_checkpoint_boundary": false, 
+    "profile": false
+}
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   aio_config ................... {'block_size': 1048576, 'queue_depth': 8, 'thread_count': 1, 'single_submit': False, 'overlap_events': True}
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   amp_enabled .................. False
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   amp_params ................... False
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   autotuning_config ............ {
+    "enabled": false, 
+    "start_step": null, 
+    "end_step": null, 
+    "metric_path": null, 
+    "arg_mappings": null, 
+    "metric": "throughput", 
+    "model_info": null, 
+    "results_dir": "autotuning_results", 
+    "exps_dir": "autotuning_exps", 
+    "overwrite": true, 
+    "fast": true, 
+    "start_profile_step": 3, 
+    "end_profile_step": 5, 
+    "tuner_type": "gridsearch", 
+    "tuner_early_stopping": 5, 
+    "tuner_num_trials": 50, 
+    "model_info_path": null, 
+    "mp_size": 1, 
+    "max_train_batch_size": null, 
+    "min_train_batch_size": 1, 
+    "max_train_micro_batch_size_per_gpu": 1.024000e+03, 
+    "min_train_micro_batch_size_per_gpu": 1, 
+    "num_tuning_micro_batch_sizes": 3
+}
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   bfloat16_enabled ............. False
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   checkpoint_parallel_write_pipeline  False
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   checkpoint_tag_validation_enabled  True
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   checkpoint_tag_validation_fail  False
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   comms_config ................. <deepspeed.comm.config.DeepSpeedCommsConfig object at 0x7fe84417f810>
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   communication_data_type ...... None
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   compression_config ........... {'weight_quantization': {'shared_parameters': {'enabled': False, 'quantizer_kernel': False, 'schedule_offset': 0, 'quantize_groups': 1, 'quantize_verbose': False, 'quantization_type': 'symmetric', 'quantize_weight_in_forward': False, 'rounding': 'nearest', 'fp16_mixed_quantize': False, 'quantize_change_ratio': 0.001}, 'different_groups': {}}, 'activation_quantization': {'shared_parameters': {'enabled': False, 'quantization_type': 'symmetric', 'range_calibration': 'dynamic', 'schedule_offset': 1000}, 'different_groups': {}}, 'sparse_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'row_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'head_pruning': {'shared_parameters': {'enabled': False, 'method': 'topk', 'schedule_offset': 1000}, 'different_groups': {}}, 'channel_pruning': {'shared_parameters': {'enabled': False, 'method': 'l1', 'schedule_offset': 1000}, 'different_groups': {}}, 'layer_reduction': {'enabled': False}}
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   curriculum_enabled_legacy .... False
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   curriculum_params_legacy ..... False
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   data_efficiency_config ....... {'enabled': False, 'seed': 1234, 'data_sampling': {'enabled': False, 'num_epochs': 1000, 'num_workers': 0, 'curriculum_learning': {'enabled': False}}, 'data_routing': {'enabled': False, 'random_ltd': {'enabled': False, 'layer_token_lr_schedule': {'enabled': False}}}}
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   data_efficiency_enabled ...... False
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   dataloader_drop_last ......... False
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   disable_allgather ............ False
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   dump_state ................... False
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   dynamic_loss_scale_args ...... {'init_scale': 4096, 'scale_window': 500, 'delayed_shift': 2, 'min_scale': 1}
+[2023-07-22 18:38:05,343] [INFO] [config.py:959:print]   eigenvalue_enabled ........... False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   eigenvalue_gas_boundary_resolution  1
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   eigenvalue_layer_name ........ bert.encoder.layer
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   eigenvalue_layer_num ......... 0
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   eigenvalue_max_iter .......... 100
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   eigenvalue_stability ......... 1e-06
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   eigenvalue_tol ............... 0.01
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   eigenvalue_verbose ........... False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   elasticity_enabled ........... False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   flops_profiler_config ........ {
+    "enabled": false, 
+    "profile_step": 1, 
+    "module_depth": -1, 
+    "top_modules": 1, 
+    "detailed": true, 
+    "output_file": null
+}
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   fp16_auto_cast ............... False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   fp16_enabled ................. True
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   fp16_master_weights_and_gradients  False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   global_rank .................. 0
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   grad_accum_dtype ............. None
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   gradient_accumulation_steps .. 4
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   gradient_clipping ............ 1
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   gradient_predivide_factor .... 1.0
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   hybrid_engine ................ enabled=False max_out_tokens=512 inference_tp_size=1 release_inference_cache=False pin_parameters=True tp_gather_partition_size=8
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   initial_dynamic_scale ........ 4096
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   load_universal_checkpoint .... False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   loss_scale ................... 0
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   memory_breakdown ............. False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   mics_hierarchial_params_gather  False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   mics_shard_size .............. -1
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   monitor_config ............... tensorboard=TensorBoardConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') wandb=WandbConfig(enabled=False, group=None, team=None, project='deepspeed') csv_monitor=CSVConfig(enabled=False, output_path='', job_name='DeepSpeedJobName') enabled=False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   nebula_config ................ {
+    "enabled": false, 
+    "persistent_storage_path": null, 
+    "persistent_time_interval": 100, 
+    "num_of_version_in_retention": 2, 
+    "enable_nebula_load": true, 
+    "load_path": null
+}
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   optimizer_legacy_fusion ...... False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   optimizer_name ............... None
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   optimizer_params ............. None
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   pipeline ..................... {'stages': 'auto', 'partition': 'best', 'seed_layers': False, 'activation_checkpoint_interval': 0}
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   pld_enabled .................. False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   pld_params ................... False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   prescale_gradients ........... False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   scheduler_name ............... None
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   scheduler_params ............. None
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   sparse_attention ............. None
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   sparse_gradients_enabled ..... False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   steps_per_print .............. 2000
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   train_batch_size ............. 16
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   train_micro_batch_size_per_gpu  4
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   use_node_local_storage ....... False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   wall_clock_breakdown ......... False
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   world_size ................... 1
+[2023-07-22 18:38:05,344] [INFO] [config.py:959:print]   zero_allow_untested_optimizer  False
+[2023-07-22 18:38:05,345] [INFO] [config.py:959:print]   zero_config .................. stage=1 contiguous_gradients=True reduce_scatter=True reduce_bucket_size=500,000,000 allgather_partitions=True allgather_bucket_size=500,000,000 overlap_comm=False load_from_fp32_weights=True elastic_checkpoint=False offload_param=None offload_optimizer=None sub_group_size=1,000,000,000 cpu_offload_param=None cpu_offload_use_pin_memory=None cpu_offload=None prefetch_bucket_size=50,000,000 param_persistence_threshold=100,000 model_persistence_threshold=sys.maxsize max_live_parameters=1,000,000,000 max_reuse_distance=1,000,000,000 gather_16bit_weights_on_model_save=False stage3_gather_fp16_weights_on_model_save=False ignore_unused_parameters=True legacy_stage1=False round_robin_gradients=False mics_shard_size=-1 mics_hierarchical_params_gather=False memory_efficient_linear=True
+[2023-07-22 18:38:05,345] [INFO] [config.py:959:print]   zero_enabled ................. True
+[2023-07-22 18:38:05,345] [INFO] [config.py:959:print]   zero_force_ds_cpu_optimizer .. True
+[2023-07-22 18:38:05,345] [INFO] [config.py:959:print]   zero_optimization_stage ...... 1
+[2023-07-22 18:38:05,345] [INFO] [config.py:951:print_user_config]   json = {
+    "train_micro_batch_size_per_gpu": 4, 
+    "train_batch_size": 16, 
+    "gradient_clipping": 1, 
+    "zero_optimization": {
+        "stage": 1
+    }, 
+    "fp16": {
+        "enabled": true, 
+        "loss_scale": 0, 
+        "loss_scale_window": 500, 
+        "hysteresis": 2, 
+        "min_loss_scale": 1, 
+        "initial_scale_power": 12
+    }, 
+    "steps_per_print": 2.000000e+03, 
+    "wall_clock_breakdown": false
+}
+Time to load utils op: 0.0003135204315185547 seconds
+[2023-07-22 18:38:05,345] [INFO] [engine.py:84:__init__] CONFIG: micro_batches=4 micro_batch_size=4
+[2023-07-22 18:38:05,567] [INFO] [engine.py:139:__init__] RANK=3 STAGE=1 LAYERS=16 [15, 31) STAGE_PARAMS=102486016 (102.486M) TOTAL_PARAMS=409939968 (409.940M) UNIQUE_PARAMS=356200448 (356.200M)
+[2023-07-22 18:38:05,567] [INFO] [engine.py:139:__init__] RANK=1 STAGE=0 LAYERS=15 [0, 15) STAGE_PARAMS=102483968 (102.484M) TOTAL_PARAMS=409939968 (409.940M) UNIQUE_PARAMS=356200448 (356.200M)
+[2023-07-22 18:38:05,567] [INFO] [engine.py:139:__init__] RANK=0 STAGE=0 LAYERS=15 [0, 15) STAGE_PARAMS=102483968 (102.484M) TOTAL_PARAMS=409939968 (409.940M) UNIQUE_PARAMS=356200448 (356.200M)
+[2023-07-22 18:38:05,568] [INFO] [engine.py:139:__init__] RANK=2 STAGE=1 LAYERS=16 [15, 31) STAGE_PARAMS=102486016 (102.486M) TOTAL_PARAMS=409939968 (409.940M) UNIQUE_PARAMS=356200448 (356.200M)
+[2023-07-22 18:38:05,751] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_00_model_states.pt...
+[2023-07-22 18:38:05,751] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_00_model_states.pt...
+[2023-07-22 18:38:05,751] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_00_model_states.pt...
+[2023-07-22 18:38:05,753] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_00_model_states.pt.
+[2023-07-22 18:38:05,753] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_02_model_states.pt...
+[2023-07-22 18:38:05,753] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_00_model_states.pt.
+[2023-07-22 18:38:05,753] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_03_model_states.pt...
+[2023-07-22 18:38:05,753] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_00_model_states.pt...
+[2023-07-22 18:38:05,753] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_00_model_states.pt.
+[2023-07-22 18:38:05,753] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_00_model_states.pt...
+[2023-07-22 18:38:05,754] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_02_model_states.pt.
+[2023-07-22 18:38:05,754] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_03_model_states.pt.
+[2023-07-22 18:38:05,754] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_15-model_00-model_states.pt...
+[2023-07-22 18:38:05,754] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_00_model_states.pt.
+[2023-07-22 18:38:05,754] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_15-model_00-model_states.pt...
+[2023-07-22 18:38:05,755] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_01-model_00-model_states.pt...
+[2023-07-22 18:38:05,757] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_15-model_00-model_states.pt.
+[2023-07-22 18:38:05,758] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_15-model_00-model_states.pt...
+[2023-07-22 18:38:05,759] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_00_model_states.pt.
+[2023-07-22 18:38:05,759] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_01_model_states.pt...
+[2023-07-22 18:38:05,759] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_15-model_00-model_states.pt.
+[2023-07-22 18:38:05,759] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_15-model_01-model_states.pt...
+[2023-07-22 18:38:05,760] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/mp_rank_01_model_states.pt.
+[2023-07-22 18:38:05,760] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_15-model_00-model_states.pt.
+[2023-07-22 18:38:05,761] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_01-model_00-model_states.pt...
+[2023-07-22 18:38:05,761] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_15-model_01-model_states.pt.
+[2023-07-22 18:38:05,763] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_16-model_00-model_states.pt...
+[2023-07-22 18:38:05,764] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_16-model_00-model_states.pt...
+[2023-07-22 18:38:05,766] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_16-model_00-model_states.pt.
+[2023-07-22 18:38:05,766] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_16-model_00-model_states.pt...
+[2023-07-22 18:38:05,769] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_16-model_00-model_states.pt.
+[2023-07-22 18:38:05,769] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_16-model_00-model_states.pt.
+[2023-07-22 18:38:05,769] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_01-model_00-model_states.pt.
+[2023-07-22 18:38:05,769] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_16-model_01-model_states.pt...
+[2023-07-22 18:38:05,770] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_01-model_00-model_states.pt...
+[2023-07-22 18:38:05,771] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_17-model_00-model_states.pt...
+[2023-07-22 18:38:05,772] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_16-model_01-model_states.pt.
+[2023-07-22 18:38:05,773] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_01-model_00-model_states.pt.
+[2023-07-22 18:38:05,774] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_01-model_01-model_states.pt...
+[2023-07-22 18:38:05,774] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_17-model_00-model_states.pt...
+[2023-07-22 18:38:05,774] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_17-model_00-model_states.pt.
+[2023-07-22 18:38:05,774] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_17-model_00-model_states.pt...
+[2023-07-22 18:38:05,778] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_17-model_00-model_states.pt.
+[2023-07-22 18:38:05,779] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_17-model_00-model_states.pt.
+[2023-07-22 18:38:05,779] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_17-model_01-model_states.pt...
+[2023-07-22 18:38:05,780] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_18-model_00-model_states.pt...
+[2023-07-22 18:38:05,781] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_17-model_01-model_states.pt.
+[2023-07-22 18:38:05,783] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_18-model_00-model_states.pt...
+[2023-07-22 18:38:05,783] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_18-model_00-model_states.pt.
+[2023-07-22 18:38:05,783] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_18-model_00-model_states.pt...
+[2023-07-22 18:38:05,785] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_01-model_00-model_states.pt.
+[2023-07-22 18:38:05,786] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_01-model_01-model_states.pt.
+[2023-07-22 18:38:05,788] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_18-model_00-model_states.pt.
+[2023-07-22 18:38:05,788] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_18-model_00-model_states.pt.
+[2023-07-22 18:38:05,788] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_18-model_01-model_states.pt...
+[2023-07-22 18:38:05,790] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_19-model_00-model_states.pt...
+[2023-07-22 18:38:05,791] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_18-model_01-model_states.pt.
+[2023-07-22 18:38:05,793] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_03-model_00-model_states.pt...
+[2023-07-22 18:38:05,794] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_19-model_00-model_states.pt...
+[2023-07-22 18:38:05,794] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_19-model_00-model_states.pt.
+[2023-07-22 18:38:05,794] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_19-model_00-model_states.pt...
+[2023-07-22 18:38:05,796] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_03-model_00-model_states.pt...
+[2023-07-22 18:38:05,797] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_03-model_00-model_states.pt.
+[2023-07-22 18:38:05,797] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_03-model_00-model_states.pt...
+[2023-07-22 18:38:05,798] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_19-model_00-model_states.pt.
+[2023-07-22 18:38:05,798] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_19-model_00-model_states.pt.
+[2023-07-22 18:38:05,798] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_19-model_01-model_states.pt...
+[2023-07-22 18:38:05,800] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_03-model_00-model_states.pt.
+[2023-07-22 18:38:05,800] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_03-model_00-model_states.pt.
+[2023-07-22 18:38:05,800] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_03-model_01-model_states.pt...
+[2023-07-22 18:38:05,800] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_20-model_00-model_states.pt...
+[2023-07-22 18:38:05,800] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_19-model_01-model_states.pt.
+[2023-07-22 18:38:05,802] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_04-model_00-model_states.pt...
+[2023-07-22 18:38:05,802] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_20-model_00-model_states.pt...
+[2023-07-22 18:38:05,803] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_03-model_01-model_states.pt.
+[2023-07-22 18:38:05,803] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_20-model_00-model_states.pt.
+[2023-07-22 18:38:05,803] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_20-model_00-model_states.pt...
+[2023-07-22 18:38:05,805] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_04-model_00-model_states.pt.
+[2023-07-22 18:38:05,805] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_04-model_00-model_states.pt...
+[2023-07-22 18:38:05,805] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_04-model_00-model_states.pt...
+[2023-07-22 18:38:05,806] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_20-model_00-model_states.pt.
+[2023-07-22 18:38:05,806] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_20-model_01-model_states.pt...
+[2023-07-22 18:38:05,806] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_20-model_00-model_states.pt.
+[2023-07-22 18:38:05,808] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_21-model_00-model_states.pt...
+[2023-07-22 18:38:05,808] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_04-model_00-model_states.pt.
+[2023-07-22 18:38:05,808] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_20-model_01-model_states.pt.
+[2023-07-22 18:38:05,808] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_04-model_00-model_states.pt.
+[2023-07-22 18:38:05,809] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_04-model_01-model_states.pt...
+[2023-07-22 18:38:05,810] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_05-model_00-model_states.pt...
+[2023-07-22 18:38:05,810] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_21-model_00-model_states.pt...
+[2023-07-22 18:38:05,811] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_21-model_00-model_states.pt.
+[2023-07-22 18:38:05,811] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_04-model_01-model_states.pt.
+[2023-07-22 18:38:05,811] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_21-model_00-model_states.pt...
+[2023-07-22 18:38:05,814] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_05-model_00-model_states.pt.
+[2023-07-22 18:38:05,814] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_05-model_00-model_states.pt...
+[2023-07-22 18:38:05,814] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_05-model_00-model_states.pt...
+[2023-07-22 18:38:05,814] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_21-model_00-model_states.pt.
+[2023-07-22 18:38:05,814] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_21-model_01-model_states.pt...
+[2023-07-22 18:38:05,814] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_21-model_00-model_states.pt.
+[2023-07-22 18:38:05,817] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_21-model_01-model_states.pt.
+[2023-07-22 18:38:05,817] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_22-model_00-model_states.pt...
+[2023-07-22 18:38:05,817] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_05-model_00-model_states.pt.
+[2023-07-22 18:38:05,817] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_05-model_00-model_states.pt.
+[2023-07-22 18:38:05,817] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_05-model_01-model_states.pt...
+[2023-07-22 18:38:05,819] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_22-model_00-model_states.pt...
+[2023-07-22 18:38:05,819] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_06-model_00-model_states.pt...
+[2023-07-22 18:38:05,819] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_05-model_01-model_states.pt.
+[2023-07-22 18:38:05,820] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_22-model_00-model_states.pt.
+[2023-07-22 18:38:05,820] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_22-model_00-model_states.pt...
+[2023-07-22 18:38:05,822] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_06-model_00-model_states.pt...
+[2023-07-22 18:38:05,822] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_06-model_00-model_states.pt.
+[2023-07-22 18:38:05,822] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_06-model_00-model_states.pt...
+[2023-07-22 18:38:05,822] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_22-model_00-model_states.pt.
+[2023-07-22 18:38:05,822] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_22-model_01-model_states.pt...
+[2023-07-22 18:38:05,823] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_22-model_00-model_states.pt.
+[2023-07-22 18:38:05,825] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_22-model_01-model_states.pt.
+[2023-07-22 18:38:05,825] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_23-model_00-model_states.pt...
+[2023-07-22 18:38:05,826] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_06-model_00-model_states.pt.
+[2023-07-22 18:38:05,826] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_06-model_00-model_states.pt.
+[2023-07-22 18:38:05,826] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_06-model_01-model_states.pt...
+[2023-07-22 18:38:05,827] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_23-model_00-model_states.pt...
+[2023-07-22 18:38:05,828] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_07-model_00-model_states.pt...
+[2023-07-22 18:38:05,828] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_23-model_00-model_states.pt.
+[2023-07-22 18:38:05,828] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_23-model_00-model_states.pt...
+[2023-07-22 18:38:05,828] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_06-model_01-model_states.pt.
+[2023-07-22 18:38:05,831] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_23-model_00-model_states.pt.
+[2023-07-22 18:38:05,831] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_23-model_01-model_states.pt...
+[2023-07-22 18:38:05,831] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_07-model_00-model_states.pt...
+[2023-07-22 18:38:05,831] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_07-model_00-model_states.pt.
+[2023-07-22 18:38:05,831] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_07-model_00-model_states.pt...
+[2023-07-22 18:38:05,831] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_23-model_00-model_states.pt.
+[2023-07-22 18:38:05,833] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_23-model_01-model_states.pt.
+[2023-07-22 18:38:05,833] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_24-model_00-model_states.pt...
+[2023-07-22 18:38:05,835] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_07-model_00-model_states.pt.
+[2023-07-22 18:38:05,835] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_07-model_00-model_states.pt.
+[2023-07-22 18:38:05,835] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_07-model_01-model_states.pt...
+[2023-07-22 18:38:05,835] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_24-model_00-model_states.pt...
+[2023-07-22 18:38:05,837] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_24-model_00-model_states.pt.
+[2023-07-22 18:38:05,837] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_24-model_00-model_states.pt...
+[2023-07-22 18:38:05,837] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_08-model_00-model_states.pt...
+[2023-07-22 18:38:05,838] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_07-model_01-model_states.pt.
+[2023-07-22 18:38:05,839] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_24-model_00-model_states.pt.
+[2023-07-22 18:38:05,839] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_24-model_01-model_states.pt...
+[2023-07-22 18:38:05,840] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_24-model_00-model_states.pt.
+[2023-07-22 18:38:05,840] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_08-model_00-model_states.pt.
+[2023-07-22 18:38:05,840] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_08-model_00-model_states.pt...
+[2023-07-22 18:38:05,841] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_08-model_00-model_states.pt...
+[2023-07-22 18:38:05,842] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_24-model_01-model_states.pt.
+[2023-07-22 18:38:05,842] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_25-model_00-model_states.pt...
+[2023-07-22 18:38:05,843] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_08-model_00-model_states.pt.
+[2023-07-22 18:38:05,844] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_25-model_00-model_states.pt...
+[2023-07-22 18:38:05,844] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_08-model_00-model_states.pt.
+[2023-07-22 18:38:05,844] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_08-model_01-model_states.pt...
+[2023-07-22 18:38:05,845] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_25-model_00-model_states.pt.
+[2023-07-22 18:38:05,845] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_25-model_00-model_states.pt...
+[2023-07-22 18:38:05,845] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_09-model_00-model_states.pt...
+[2023-07-22 18:38:05,847] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_08-model_01-model_states.pt.
+[2023-07-22 18:38:05,847] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_25-model_00-model_states.pt.
+[2023-07-22 18:38:05,847] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_25-model_01-model_states.pt...
+[2023-07-22 18:38:05,848] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_25-model_00-model_states.pt.
+[2023-07-22 18:38:05,848] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_09-model_00-model_states.pt.
+[2023-07-22 18:38:05,849] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_09-model_00-model_states.pt...
+[2023-07-22 18:38:05,849] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_09-model_00-model_states.pt...
+[2023-07-22 18:38:05,850] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_25-model_01-model_states.pt.
+[2023-07-22 18:38:05,850] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_26-model_00-model_states.pt...
+[2023-07-22 18:38:05,852] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_09-model_00-model_states.pt.
+[2023-07-22 18:38:05,852] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_26-model_00-model_states.pt...
+[2023-07-22 18:38:05,852] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_09-model_00-model_states.pt.
+[2023-07-22 18:38:05,853] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_09-model_01-model_states.pt...
+[2023-07-22 18:38:05,854] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_26-model_00-model_states.pt.
+[2023-07-22 18:38:05,854] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_26-model_00-model_states.pt...
+[2023-07-22 18:38:05,854] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_10-model_00-model_states.pt...
+[2023-07-22 18:38:05,856] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_09-model_01-model_states.pt.
+[2023-07-22 18:38:05,856] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_26-model_00-model_states.pt.
+[2023-07-22 18:38:05,856] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_26-model_01-model_states.pt...
+[2023-07-22 18:38:05,857] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_26-model_00-model_states.pt.
+[2023-07-22 18:38:05,857] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_10-model_00-model_states.pt.
+[2023-07-22 18:38:05,857] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_10-model_00-model_states.pt...
+[2023-07-22 18:38:05,858] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_10-model_00-model_states.pt...
+[2023-07-22 18:38:05,859] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_26-model_01-model_states.pt.
+[2023-07-22 18:38:05,859] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_28-model_00-model_states.pt...
+[2023-07-22 18:38:05,859] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_28-model_00-model_states.pt.
+[2023-07-22 18:38:05,859] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_28-model_00-model_states.pt...
+[2023-07-22 18:38:05,859] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_28-model_00-model_states.pt.
+[2023-07-22 18:38:05,860] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_10-model_00-model_states.pt.
+[2023-07-22 18:38:05,860] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_02_optim_states.pt...
+[2023-07-22 18:38:05,860] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_28-model_00-model_states.pt...
+[2023-07-22 18:38:05,861] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_28-model_00-model_states.pt.
+[2023-07-22 18:38:05,861] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_28-model_01-model_states.pt...
+[2023-07-22 18:38:05,861] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_28-model_01-model_states.pt.
+[2023-07-22 18:38:05,861] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_10-model_00-model_states.pt.
+[2023-07-22 18:38:05,861] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_10-model_01-model_states.pt...
+[2023-07-22 18:38:05,862] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_03_optim_states.pt...
+[2023-07-22 18:38:05,862] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_11-model_00-model_states.pt...
+[2023-07-22 18:38:05,864] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_10-model_01-model_states.pt.
+[2023-07-22 18:38:05,865] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_11-model_00-model_states.pt.
+[2023-07-22 18:38:05,865] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_11-model_00-model_states.pt...
+[2023-07-22 18:38:05,867] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_11-model_00-model_states.pt...
+[2023-07-22 18:38:05,868] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_11-model_00-model_states.pt.
+[2023-07-22 18:38:05,870] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_11-model_00-model_states.pt.
+[2023-07-22 18:38:05,870] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_11-model_01-model_states.pt...
+[2023-07-22 18:38:05,870] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_12-model_00-model_states.pt...
+[2023-07-22 18:38:05,873] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_11-model_01-model_states.pt.
+[2023-07-22 18:38:05,873] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_12-model_00-model_states.pt.
+[2023-07-22 18:38:05,873] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_12-model_00-model_states.pt...
+[2023-07-22 18:38:05,875] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_12-model_00-model_states.pt...
+[2023-07-22 18:38:05,876] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_12-model_00-model_states.pt.
+[2023-07-22 18:38:05,878] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_12-model_00-model_states.pt.
+[2023-07-22 18:38:05,878] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_12-model_01-model_states.pt...
+[2023-07-22 18:38:05,878] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_13-model_00-model_states.pt...
+[2023-07-22 18:38:05,882] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_12-model_01-model_states.pt.
+[2023-07-22 18:38:05,882] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_13-model_00-model_states.pt.
+[2023-07-22 18:38:05,882] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_13-model_00-model_states.pt...
+[2023-07-22 18:38:05,884] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_13-model_00-model_states.pt...
+[2023-07-22 18:38:05,885] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_13-model_00-model_states.pt.
+[2023-07-22 18:38:05,887] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_13-model_00-model_states.pt.
+[2023-07-22 18:38:05,887] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_13-model_01-model_states.pt...
+[2023-07-22 18:38:05,887] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_14-model_00-model_states.pt...
+[2023-07-22 18:38:05,890] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_14-model_00-model_states.pt.
+[2023-07-22 18:38:05,890] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_14-model_00-model_states.pt...
+[2023-07-22 18:38:05,891] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_13-model_01-model_states.pt.
+[2023-07-22 18:38:05,893] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_14-model_00-model_states.pt...
+[2023-07-22 18:38:05,893] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_14-model_00-model_states.pt.
+ > using checkpoint value 0.00015 for learning rate
+ > using checkpoint value 1e-05 for minimum learning rate
+ > using checkpoint value 51200.0 for warmup iterations
+ > using checkpoint value 5120000 for total number of iterations
+ > using checkpoint value cosine for decay style
+[2023-07-22 18:38:05,896] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2023-07-22 18:38:05,896] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_14-model_00-model_states.pt.
+[2023-07-22 18:38:05,896] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_14-model_01-model_states.pt...
+[2023-07-22 18:38:05,899] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/layer_14-model_01-model_states.pt.
+[2023-07-22 18:38:05,902] [INFO] [torch_checkpoint_engine.py:27:load] [Torch] Loading checkpoint from checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_01_optim_states.pt...
+[2023-07-22 18:38:06,132] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_03_optim_states.pt.
+[2023-07-22 18:38:06,133] [INFO] [engine.py:2825:_get_all_zero_checkpoint_state_dicts] successfully read 1 ZeRO state_dicts for rank 3
+[2023-07-22 18:38:06,198] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_02_optim_states.pt.
+[2023-07-22 18:38:06,198] [INFO] [engine.py:2825:_get_all_zero_checkpoint_state_dicts] successfully read 1 ZeRO state_dicts for rank 2
+[2023-07-22 18:38:06,200] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_01_optim_states.pt.
+[2023-07-22 18:38:06,200] [INFO] [engine.py:2825:_get_all_zero_checkpoint_state_dicts] successfully read 1 ZeRO state_dicts for rank 1
+[2023-07-22 18:38:06,217] [INFO] [torch_checkpoint_engine.py:29:load] [Torch] Loaded checkpoint from checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2023-07-22 18:38:06,218] [INFO] [engine.py:2825:_get_all_zero_checkpoint_state_dicts] successfully read 1 ZeRO state_dicts for rank 0
+[2023-07-22 18:38:06,507] [INFO] [engine.py:2775:_load_zero_checkpoint] loading 1 zero partition checkpoints for rank 3
+[2023-07-22 18:38:06,538] [INFO] [engine.py:2775:_load_zero_checkpoint] loading 1 zero partition checkpoints for rank 1
+[2023-07-22 18:38:06,548] [INFO] [engine.py:2775:_load_zero_checkpoint] loading 1 zero partition checkpoints for rank 0
+ checkpoint version 3.0
+[2023-07-22 18:38:06,576] [INFO] [engine.py:2775:_load_zero_checkpoint] loading 1 zero partition checkpoints for rank 2
+  successfully loaded checkpoint from checkpoints/gpt2-pipeline at iteration 30
+time (ms) | load-checkpoint: 828.87
+[after model, optimizer, and learning rate scheduler are built] datetime: 2023-07-22 18:38:06 
+> building train, validation, and test datasets ...
+ > datasets target sizes (minimum size):
+    train:      480
+    validation: 160
+    test:       160
+> building train, validation, and test datasets for GPT ...
+ > building dataset index ...
+    reading sizes...
+    reading pointers...
+    reading document index...
+    creating numpy buffer of mmap...
+    creating memory view of numpy buffer...
+ > finished creating indexed dataset in 0.000431 seconds
+    number of documents: 10000
+ > dataset split:
+    train:
+     document indices in [0, 9490) total of 9490 documents
+    validation:
+     document indices in [9490, 9990) total of 500 documents
+    test:
+     document indices in [9990, 10000) total of 10 documents
+ > loading doc-idx mapping from data/meg-gpt2-oscar-en-10k_text_document_train_indexmap_480ns_1024sl_1234s_doc_idx.npy
+ > loading sample-idx mapping from data/meg-gpt2-oscar-en-10k_text_document_train_indexmap_480ns_1024sl_1234s_sample_idx.npy
+ > loading shuffle-idx mapping from data/meg-gpt2-oscar-en-10k_text_document_train_indexmap_480ns_1024sl_1234s_shuffle_idx.npy
+    loaded indexed file in 0.001 seconds
+    total number of samples: 27538
+    total number of epochs: 1
+ > loading doc-idx mapping from data/meg-gpt2-oscar-en-10k_text_document_valid_indexmap_160ns_1024sl_1234s_doc_idx.npy
+ > loading sample-idx mapping from data/meg-gpt2-oscar-en-10k_text_document_valid_indexmap_160ns_1024sl_1234s_sample_idx.npy
+ > loading shuffle-idx mapping from data/meg-gpt2-oscar-en-10k_text_document_valid_indexmap_160ns_1024sl_1234s_shuffle_idx.npy
+    loaded indexed file in 0.001 seconds
+    total number of samples: 1546
+    total number of epochs: 1
+ > loading doc-idx mapping from data/meg-gpt2-oscar-en-10k_text_document_test_indexmap_160ns_1024sl_1234s_doc_idx.npy
+ > loading sample-idx mapping from data/meg-gpt2-oscar-en-10k_text_document_test_indexmap_160ns_1024sl_1234s_sample_idx.npy
+ > loading shuffle-idx mapping from data/meg-gpt2-oscar-en-10k_text_document_test_indexmap_160ns_1024sl_1234s_shuffle_idx.npy
+    loaded indexed file in 0.001 seconds
+    total number of samples: 191
+    total number of epochs: 6
+> finished creating GPT datasets ...
+time (ms) | model-and-optimizer-setup: 2243.97 | train/valid/test-data-iterators-setup: 242.23
+[after dataloaders are built] datetime: 2023-07-22 18:38:07 
+done with setup ...
+training ...
+[before the start of training step] datetime: 2023-07-22 18:38:07 
+[after training is done] datetime: 2023-07-22 18:38:07 
+[2023-07-22 18:38:07,078] [INFO] [checkpointing.py:529:forward] Activation Checkpointing Information
+[2023-07-22 18:38:07,078] [INFO] [checkpointing.py:530:forward] ----Partition Activations False, CPU CHECKPOINTING False
+[2023-07-22 18:38:07,078] [INFO] [checkpointing.py:532:forward] ----contiguous Memory Checkpointing False with 24 total layers
+[2023-07-22 18:38:07,078] [INFO] [checkpointing.py:533:forward] ----Synchronization False
+[2023-07-22 18:38:07,078] [INFO] [checkpointing.py:534:forward] ----Profiling time in checkpointing False
+saving checkpoint at iteration      30 to checkpoints/gpt2-pipeline
+------------------------------------------------------------------------------------------------------------------
+ validation loss at the end of training for val data | lm loss value: 9.682948E+00 | lm loss PPL: 1.604172E+04 | 
+------------------------------------------------------------------------------------------------------------------
+[2023-07-22 18:38:10,889] [INFO] [logging.py:96:log_dist] [Rank 0] [Torch] Checkpoint global_step30 is about to be saved!
+[2023-07-22 18:38:10,891] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_15-model_01-model_states.pt...
+[2023-07-22 18:38:10,891] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_01-model_00-model_states.pt...
+[2023-07-22 18:38:10,891] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_15-model_00-model_states.pt...
+[2023-07-22 18:38:10,891] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_01-model_01-model_states.pt...
+[2023-07-22 18:38:10,913] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_15-model_00-model_states.pt.
+[2023-07-22 18:38:10,914] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_15-model_01-model_states.pt.
+[2023-07-22 18:38:10,914] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_16-model_00-model_states.pt...
+[2023-07-22 18:38:10,915] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_16-model_01-model_states.pt...
+[2023-07-22 18:38:10,935] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_16-model_01-model_states.pt.
+[2023-07-22 18:38:10,935] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_17-model_01-model_states.pt...
+[2023-07-22 18:38:10,937] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_16-model_00-model_states.pt.
+[2023-07-22 18:38:10,937] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_17-model_00-model_states.pt...
+[2023-07-22 18:38:10,955] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_17-model_01-model_states.pt.
+[2023-07-22 18:38:10,956] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_18-model_01-model_states.pt...
+[2023-07-22 18:38:10,959] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_17-model_00-model_states.pt.
+[2023-07-22 18:38:10,959] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_18-model_00-model_states.pt...
+[2023-07-22 18:38:10,976] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_18-model_01-model_states.pt.
+[2023-07-22 18:38:10,977] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_19-model_01-model_states.pt...
+[2023-07-22 18:38:10,988] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_18-model_00-model_states.pt.
+[2023-07-22 18:38:10,989] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_19-model_00-model_states.pt...
+[2023-07-22 18:38:11,002] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_19-model_01-model_states.pt.
+[2023-07-22 18:38:11,002] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_20-model_01-model_states.pt...
+[2023-07-22 18:38:11,007] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_01-model_00-model_states.pt.
+[2023-07-22 18:38:11,007] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_03-model_00-model_states.pt...
+[2023-07-22 18:38:11,010] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_19-model_00-model_states.pt.
+[2023-07-22 18:38:11,011] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_20-model_00-model_states.pt...
+[2023-07-22 18:38:11,012] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_01-model_01-model_states.pt.
+[2023-07-22 18:38:11,013] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_03-model_01-model_states.pt...
+[2023-07-22 18:38:11,019] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_20-model_01-model_states.pt.
+[2023-07-22 18:38:11,020] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_21-model_01-model_states.pt...
+[2023-07-22 18:38:11,028] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_03-model_00-model_states.pt.
+[2023-07-22 18:38:11,028] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_04-model_00-model_states.pt...
+[2023-07-22 18:38:11,029] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_20-model_00-model_states.pt.
+[2023-07-22 18:38:11,030] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_21-model_00-model_states.pt...
+[2023-07-22 18:38:11,034] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_03-model_01-model_states.pt.
+[2023-07-22 18:38:11,035] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_04-model_01-model_states.pt...
+[2023-07-22 18:38:11,040] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_21-model_01-model_states.pt.
+[2023-07-22 18:38:11,040] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_22-model_01-model_states.pt...
+[2023-07-22 18:38:11,047] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_04-model_00-model_states.pt.
+[2023-07-22 18:38:11,048] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_05-model_00-model_states.pt...
+[2023-07-22 18:38:11,050] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_21-model_00-model_states.pt.
+[2023-07-22 18:38:11,051] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_22-model_00-model_states.pt...
+[2023-07-22 18:38:11,055] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_04-model_01-model_states.pt.
+[2023-07-22 18:38:11,055] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_05-model_01-model_states.pt...
+[2023-07-22 18:38:11,059] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_22-model_01-model_states.pt.
+[2023-07-22 18:38:11,059] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_23-model_01-model_states.pt...
+[2023-07-22 18:38:11,066] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_05-model_00-model_states.pt.
+[2023-07-22 18:38:11,067] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_06-model_00-model_states.pt...
+[2023-07-22 18:38:11,070] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_22-model_00-model_states.pt.
+[2023-07-22 18:38:11,070] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_23-model_00-model_states.pt...
+[2023-07-22 18:38:11,074] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_05-model_01-model_states.pt.
+[2023-07-22 18:38:11,075] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_06-model_01-model_states.pt...
+[2023-07-22 18:38:11,078] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_23-model_01-model_states.pt.
+[2023-07-22 18:38:11,078] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_24-model_01-model_states.pt...
+[2023-07-22 18:38:11,086] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_06-model_00-model_states.pt.
+[2023-07-22 18:38:11,086] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_07-model_00-model_states.pt...
+[2023-07-22 18:38:11,090] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_23-model_00-model_states.pt.
+[2023-07-22 18:38:11,090] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_24-model_00-model_states.pt...
+[2023-07-22 18:38:11,094] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_06-model_01-model_states.pt.
+[2023-07-22 18:38:11,095] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_07-model_01-model_states.pt...
+[2023-07-22 18:38:11,096] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_24-model_01-model_states.pt.
+[2023-07-22 18:38:11,097] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_25-model_01-model_states.pt...
+[2023-07-22 18:38:11,106] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_07-model_00-model_states.pt.
+[2023-07-22 18:38:11,106] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_08-model_00-model_states.pt...
+[2023-07-22 18:38:11,111] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_24-model_00-model_states.pt.
+[2023-07-22 18:38:11,111] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_25-model_00-model_states.pt...
+[2023-07-22 18:38:11,115] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_07-model_01-model_states.pt.
+[2023-07-22 18:38:11,115] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_08-model_01-model_states.pt...
+[2023-07-22 18:38:11,116] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_25-model_01-model_states.pt.
+[2023-07-22 18:38:11,117] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_26-model_01-model_states.pt...
+[2023-07-22 18:38:11,127] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_08-model_00-model_states.pt.
+[2023-07-22 18:38:11,127] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_09-model_00-model_states.pt...
+[2023-07-22 18:38:11,132] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_25-model_00-model_states.pt.
+[2023-07-22 18:38:11,133] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_26-model_00-model_states.pt...
+[2023-07-22 18:38:11,134] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_08-model_01-model_states.pt.
+[2023-07-22 18:38:11,134] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_09-model_01-model_states.pt...
+[2023-07-22 18:38:11,137] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_26-model_01-model_states.pt.
+[2023-07-22 18:38:11,138] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_28-model_01-model_states.pt...
+[2023-07-22 18:38:11,138] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_28-model_01-model_states.pt.
+[2023-07-22 18:38:11,139] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/mp_rank_03_model_states.pt...
+[2023-07-22 18:38:11,143] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/mp_rank_03_model_states.pt.
+[2023-07-22 18:38:11,147] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_09-model_00-model_states.pt.
+[2023-07-22 18:38:11,147] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_10-model_00-model_states.pt...
+[2023-07-22 18:38:11,152] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_26-model_00-model_states.pt.
+[2023-07-22 18:38:11,152] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_28-model_00-model_states.pt...
+[2023-07-22 18:38:11,152] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_28-model_00-model_states.pt.
+[2023-07-22 18:38:11,153] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_09-model_01-model_states.pt.
+[2023-07-22 18:38:11,153] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_10-model_01-model_states.pt...
+[2023-07-22 18:38:11,153] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/mp_rank_02_model_states.pt...
+[2023-07-22 18:38:11,157] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/mp_rank_02_model_states.pt.
+[2023-07-22 18:38:11,163] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_10-model_00-model_states.pt.
+[2023-07-22 18:38:11,163] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_11-model_00-model_states.pt...
+[2023-07-22 18:38:11,169] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_10-model_01-model_states.pt.
+[2023-07-22 18:38:11,170] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_11-model_01-model_states.pt...
+[2023-07-22 18:38:11,179] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_11-model_00-model_states.pt.
+[2023-07-22 18:38:11,179] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_12-model_00-model_states.pt...
+[2023-07-22 18:38:11,185] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_11-model_01-model_states.pt.
+[2023-07-22 18:38:11,186] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_12-model_01-model_states.pt...
+[2023-07-22 18:38:11,195] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_12-model_00-model_states.pt.
+[2023-07-22 18:38:11,196] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_13-model_00-model_states.pt...
+[2023-07-22 18:38:11,202] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_12-model_01-model_states.pt.
+[2023-07-22 18:38:11,202] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_13-model_01-model_states.pt...
+[2023-07-22 18:38:11,211] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_13-model_00-model_states.pt.
+[2023-07-22 18:38:11,212] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_14-model_00-model_states.pt...
+[2023-07-22 18:38:11,218] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_13-model_01-model_states.pt.
+[2023-07-22 18:38:11,219] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/layer_14-model_01-model_states.pt...
+[2023-07-22 18:38:11,228] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_14-model_00-model_states.pt.
+[2023-07-22 18:38:11,230] [INFO] [logging.py:96:log_dist] [Rank 0] Saving model checkpoint: checkpoints/gpt2-pipeline/global_step30/mp_rank_00_model_states.pt
+[2023-07-22 18:38:11,230] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/mp_rank_00_model_states.pt...
+[2023-07-22 18:38:11,233] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/mp_rank_00_model_states.pt.
+[2023-07-22 18:38:11,235] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/layer_14-model_01-model_states.pt.
+[2023-07-22 18:38:11,236] [INFO] [logging.py:96:log_dist] [Rank 1] Saving model checkpoint: checkpoints/gpt2-pipeline/global_step30/mp_rank_01_model_states.pt
+[2023-07-22 18:38:11,236] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/mp_rank_01_model_states.pt...
+[2023-07-22 18:38:11,239] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/mp_rank_01_model_states.pt.
+[2023-07-22 18:38:11,240] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_03_optim_states.pt...
+[2023-07-22 18:38:11,240] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_02_optim_states.pt...
+[2023-07-22 18:38:11,240] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_01_optim_states.pt...
+[2023-07-22 18:38:11,240] [INFO] [torch_checkpoint_engine.py:21:save] [Torch] Saving checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_00_optim_states.pt...
+[2023-07-22 18:38:13,604] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_00_optim_states.pt.
+[2023-07-22 18:38:13,605] [INFO] [engine.py:3245:_save_zero_checkpoint] zero checkpoint saved checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_00_optim_states.pt
+[2023-07-22 18:38:13,605] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step30 is ready now!
+[2023-07-22 18:38:14,059] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_02_optim_states.pt.
+[2023-07-22 18:38:14,060] [INFO] [engine.py:3245:_save_zero_checkpoint] zero checkpoint saved checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_02_optim_states.pt
+[2023-07-22 18:38:14,060] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step30 is ready now!
+[2023-07-22 18:38:14,127] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_01_optim_states.pt.
+[2023-07-22 18:38:14,128] [INFO] [engine.py:3245:_save_zero_checkpoint] zero checkpoint saved checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_01_optim_states.pt
+[2023-07-22 18:38:14,128] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step30 is ready now!
+[2023-07-22 18:38:14,159] [INFO] [torch_checkpoint_engine.py:23:save] [Torch] Saved checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_03_optim_states.pt.
+[2023-07-22 18:38:14,159] [INFO] [engine.py:3245:_save_zero_checkpoint] zero checkpoint saved checkpoints/gpt2-pipeline/global_step30/zero_pp_rank_0_mp_rank_03_optim_states.pt
+[2023-07-22 18:38:14,159] [INFO] [torch_checkpoint_engine.py:33:commit] [Torch] Checkpoint global_step30 is ready now!
+  successfully saved checkpoint at iteration      30 to checkpoints/gpt2-pipeline
+Evaluating iter 5/10
+Evaluating iter 10/10
+-------------------------------------------------------------------------------------------------------------------
+ validation loss at the end of training for test data | lm loss value: 9.765166E+00 | lm loss PPL: 1.741638E+04 | 
+-------------------------------------------------------------------------------------------------------------------

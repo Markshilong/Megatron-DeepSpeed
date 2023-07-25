@@ -26,6 +26,56 @@ DISTRIBUTED_ARGS="--nproc_per_node $GPUS_PER_NODE \
 # remove last checkpoints
 rm -rf $CHECKPOINT_PATH
 
+# ZERO_STAGE=3
+# MICRO_BATCH_SIZE=4
+# GLOBAL_BATCH_SIZE=16
+
+# config_json="./ds_config.json"
+
+# # Deepspeed figures out GAS dynamically from dynamic GBS via set_train_batch_size()
+# cat <<EOT > $config_json
+# {
+#   "train_micro_batch_size_per_gpu": $MICRO_BATCH_SIZE,
+#   "train_batch_size": $GLOBAL_BATCH_SIZE,
+#   "gradient_clipping": 1.0,
+#   "zero_optimization": {
+#     "stage": $ZERO_STAGE,
+#     "offload_param": {
+#       "device": "nvme",
+#       "nvme_path": "/home/shilonglei/OOC/nvme_offload",
+#       "pin_memory": true,
+#       "buffer_count": 6,
+#       "buffer_size": 1e8,
+#       "max_in_cpu": 1e9
+#     },
+#     "overlap_comm": true,
+#     "contiguous_gradients": true,
+#     "reduce_bucket_size": 1048576,
+#     "stage3_prefetch_bucket_size": 104858,
+#     "stage3_max_live_parameters": 1e8,
+#     "stage3_max_reuse_distance": 1e8,
+#     "stage3_param_persistence_threshold": 10240
+#   },
+#   "aio": {
+#     "block_size": 131072,
+#     "queue_depth": 16,
+#     "thread_count": 1,
+#     "single_submit": true,
+#     "overlap_events": true
+#   },
+#   "fp16": {
+#     "enabled": true,
+#     "loss_scale": 0,
+#     "loss_scale_window": 500,
+#     "hysteresis": 2,
+#     "min_loss_scale": 1,
+#     "initial_scale_power": 12
+#   },
+#   "steps_per_print": 2000,
+#   "wall_clock_breakdown": false
+# }
+# EOT
+
 ZERO_STAGE=1
 MICRO_BATCH_SIZE=4
 GLOBAL_BATCH_SIZE=16
@@ -54,6 +104,7 @@ cat <<EOT > $config_json
 }
 EOT
 
+
 DEEPSPEED_ARGS=" \
     --deepspeed \
     --deepspeed_config ${config_json} \
@@ -64,8 +115,8 @@ DEEPSPEED_ARGS=" \
 python -m torch.distributed.launch $DISTRIBUTED_ARGS \
        /home/shilonglei/OOC/Megatron-DeepSpeed/pretrain_gpt.py \
        $DEEPSPEED_ARGS \
-       --tensor-model-parallel-size 2 \
-       --pipeline-model-parallel-size 2 \
+       --tensor-model-parallel-size 1 \
+       --pipeline-model-parallel-size 4 \
        --num-layers 24 \
        --hidden-size 1024 \
        --num-attention-heads 16 \
@@ -73,7 +124,7 @@ python -m torch.distributed.launch $DISTRIBUTED_ARGS \
        --global-batch-size 16 \
        --seq-length 1024 \
        --max-position-embeddings 1024 \
-       --train-iters 10 \
+       --train-iters 30 \
        --lr-decay-iters 320000 \
        --save $CHECKPOINT_PATH \
        --load $CHECKPOINT_PATH \
@@ -93,5 +144,5 @@ python -m torch.distributed.launch $DISTRIBUTED_ARGS \
        --log-interval 5 \
        --save-interval 10000 \
        --eval-interval 1000 \
-       --eval-iters 0 \
+       --eval-iters 10 \
        --fp16

@@ -20,6 +20,8 @@ import math
 import sys
 import time
 import json
+from deepspeed.utils.nvtx import my_nvtx_wrapper
+from torch.cuda import nvtx
 # The earliest we can measure the start time.
 _TRAIN_START_TIME = time.time()
 
@@ -515,6 +517,7 @@ def setup_model_and_optimizer(model_provider_func, teacher=False,
             )
             model.set_data_post_process_func(data_post_process)
         else:
+            # lslmark: deepspeed.initialize
             model, optimizer, _, lr_scheduler = deepspeed.initialize(
                 model=model[0],
                 optimizer=optimizer,
@@ -567,7 +570,7 @@ def setup_model_and_optimizer(model_provider_func, teacher=False,
 
     return model, optimizer, lr_scheduler
 
-
+@my_nvtx_wrapper
 def train_step(forward_step_func, data_iterator,
                model, optimizer, lr_scheduler):
     """Single training step."""
