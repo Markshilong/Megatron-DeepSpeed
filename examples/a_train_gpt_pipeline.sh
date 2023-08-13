@@ -24,83 +24,93 @@ DISTRIBUTED_ARGS="--nproc_per_node $GPUS_PER_NODE \
        --master_port $MASTER_PORT"
 
 rm -rf $CHECKPOINT_PATH
+zeroStage=0
 
-# ZERO_STAGE=3
-# MICRO_BATCH_SIZE=4
-# GLOBAL_BATCH_SIZE=16
+if [ "$zeroStage" -eq 3 ];then   # true == zero3, false == zero1
 
-# config_json="./ds_config.json"
+  ZERO_STAGE=3
+  MICRO_BATCH_SIZE=4
+  GLOBAL_BATCH_SIZE=16
 
-# # Deepspeed figures out GAS dynamically from dynamic GBS via set_train_batch_size()
-# cat <<EOT > $config_json
-# {
-#   "train_micro_batch_size_per_gpu": $MICRO_BATCH_SIZE,
-#   "train_batch_size": $GLOBAL_BATCH_SIZE,
-#   "gradient_clipping": 1.0,
-#   "zero_optimization": {
-#     "stage": $ZERO_STAGE,
-#     "offload_param": {
-#       "device": "nvme",
-#       "nvme_path": "/home/shilonglei/OOC/nvme_offload",
-#       "pin_memory": true,
-#       "buffer_count": 6,
-#       "buffer_size": 1e8,
-#       "max_in_cpu": 1e9
-#     },
-#     "overlap_comm": true,
-#     "contiguous_gradients": true,
-#     "reduce_bucket_size": 1048576,
-#     "stage3_prefetch_bucket_size": 104858,
-#     "stage3_max_live_parameters": 1e8,
-#     "stage3_max_reuse_distance": 1e8,
-#     "stage3_param_persistence_threshold": 10240
-#   },
-#   "aio": {
-#     "block_size": 131072,
-#     "queue_depth": 16,
-#     "thread_count": 1,
-#     "single_submit": true,
-#     "overlap_events": true
-#   },
-#   "fp16": {
-#     "enabled": true,
-#     "loss_scale": 0,
-#     "loss_scale_window": 500,
-#     "hysteresis": 2,
-#     "min_loss_scale": 1,
-#     "initial_scale_power": 12
-#   },
-#   "steps_per_print": 2000,
-#   "wall_clock_breakdown": false
-# }
-# EOT
+  config_json="./ds_config.json"
 
-ZERO_STAGE=1
-MICRO_BATCH_SIZE=4
-GLOBAL_BATCH_SIZE=16
-
-config_json="./ds_config.json"
-
-cat <<EOT > $config_json
-{
-  "train_micro_batch_size_per_gpu": $MICRO_BATCH_SIZE,
-  "train_batch_size": $GLOBAL_BATCH_SIZE,
-  "gradient_clipping": 1.0,
-  "zero_optimization": {
-    "stage": $ZERO_STAGE
-  },
-  "fp16": {
-    "enabled": true,
-    "loss_scale": 0,
-    "loss_scale_window": 500,
-    "hysteresis": 2,
-    "min_loss_scale": 1,
-    "initial_scale_power": 12
-  },
-  "steps_per_print": 2000,
-  "wall_clock_breakdown": false
-}
+  # Deepspeed figures out GAS dynamically from dynamic GBS via set_train_batch_size()
+  cat <<EOT > $config_json
+  {
+    "train_micro_batch_size_per_gpu": $MICRO_BATCH_SIZE,
+    "train_batch_size": $GLOBAL_BATCH_SIZE,
+    "gradient_clipping": 1.0,
+    "zero_optimization": {
+      "stage": $ZERO_STAGE,
+      "offload_param": {
+        "device": "nvme",
+        "nvme_path": "/home/shilonglei/OOC/nvme_offload",
+        "pin_memory": true,
+        "buffer_count": 6,
+        "buffer_size": 1e8,
+        "max_in_cpu": 1e9
+      },
+      "overlap_comm": true,
+      "contiguous_gradients": true,
+      "reduce_bucket_size": 1048576,
+      "stage3_prefetch_bucket_size": 104858,
+      "stage3_max_live_parameters": 1e8,
+      "stage3_max_reuse_distance": 1e8,
+      "stage3_param_persistence_threshold": 10240
+    },
+    "aio": {
+      "block_size": 131072,
+      "queue_depth": 16,
+      "thread_count": 1,
+      "single_submit": true,
+      "overlap_events": true
+    },
+    "fp16": {
+      "enabled": true,
+      "loss_scale": 0,
+      "loss_scale_window": 500,
+      "hysteresis": 2,
+      "min_loss_scale": 1,
+      "initial_scale_power": 12
+    },
+    "steps_per_print": 2000,
+    "wall_clock_breakdown": false
+  }
 EOT
+
+else
+  if [ "$zeroStage" -eq 0 ];then
+    ZERO_STAGE=0
+  elif [ "$zeroStage" -eq 1 ];then
+    ZERO_STAGE=1
+  fi
+
+  MICRO_BATCH_SIZE=4
+  GLOBAL_BATCH_SIZE=16
+
+  config_json="./ds_config.json"
+
+  cat <<EOT > $config_json
+  {
+    "train_micro_batch_size_per_gpu": $MICRO_BATCH_SIZE,
+    "train_batch_size": $GLOBAL_BATCH_SIZE,
+    "gradient_clipping": 1.0,
+    "zero_optimization": {
+      "stage": $ZERO_STAGE
+    },
+    "fp16": {
+      "enabled": true,
+      "loss_scale": 0,
+      "loss_scale_window": 500,
+      "hysteresis": 2,
+      "min_loss_scale": 1,
+      "initial_scale_power": 12
+    },
+    "steps_per_print": 2000,
+    "wall_clock_breakdown": false
+  }
+EOT
+fi
 
 
 DEEPSPEED_ARGS=" \
@@ -110,7 +120,7 @@ DEEPSPEED_ARGS=" \
     --deepspeed-activation-checkpointing \
     "
 
-python -m torch.distributed.launch $DISTRIBUTED_ARGS \
+torchrun $DISTRIBUTED_ARGS \
        ../pretrain_gpt.py \
        $DEEPSPEED_ARGS \
        --tensor-model-parallel-size 1 \
